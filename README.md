@@ -6,7 +6,6 @@ To develop this application i used:
   - Android Studio Arctic Fox 2020.3.1 Patch 2
   - VM: OpenJDK 64-Bit Server VM by Oracle Corporation
   - Windows 10 10.0
-  - GC: G1 Young Generation, G1 Old Generation
   - Gradle 7.02
 
 ## Requirements
