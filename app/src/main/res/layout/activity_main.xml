@@ -13,25 +13,38 @@
         android:fontFamily="@font/roboto"
         android:text="Resultado:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="496dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
 
     <Button
         android:id="@+id/btnCalcular"
-        android:layout_width="152dp"
+        android:layout_width="165dp"
         android:layout_height="48dp"
+
         android:text="Calcular"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="571dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
 
     <Button
         android:id="@+id/btnLimpiar"
         android:layout_width="152dp"
         android:layout_height="48dp"
         android:text="Limpiar"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="571dp" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,8 +53,12 @@
         android:fontFamily="@font/roboto"
         android:text="Cateto b:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="421dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
 
     <TextView
         android:id="@+id/textView"
@@ -50,9 +67,12 @@
         android:fontFamily="@font/roboto"
         android:text="Cateto a:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="346dp" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
 
     <EditText
         android:id="@+id/etCatetoA"
@@ -63,8 +83,12 @@
         android:inputType="number"
         android:minHeight="48dp"
 
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="319dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
 
     <EditText
         android:id="@+id/etCatetoB"
@@ -73,8 +97,12 @@
         android:ems="10"
         android:fontFamily="@font/roboto"
         android:inputType="number"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="394dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
 
     <EditText
         android:id="@+id/etResultado"
@@ -83,19 +111,23 @@
         android:ems="10"
         android:fontFamily="@font/roboto"
         android:inputType="number"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="469dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="280dp"
         android:layout_height="204dp"
-        android:layout_marginTop="64dp"
+        android:background="@mipmap/triangulo_rectangulo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@mipmap/triangulo_rectangulo"
-        />
+        app:layout_constraintVertical_bias="0.081" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
