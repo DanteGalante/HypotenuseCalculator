@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_light"
     tools:context=".MainActivity">
 
     <TextView
@@ -108,9 +109,10 @@
         android:id="@+id/etResultado"
         android:layout_width="208dp"
         android:layout_height="54dp"
+        android:clickable="false"
         android:ems="10"
         android:fontFamily="@font/roboto"
-        android:inputType="number"
+        android:inputType="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.812"
