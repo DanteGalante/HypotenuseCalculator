@@ -1,4 +1,4 @@
-# HypotenuseCalculator
+# Hypotenuse Calculator
 Application coded in Kotlin that calculates the hypotenuse of a right triangle.
 
 To develop this application i used:
